@@ -1,0 +1,40 @@
+.form{
+    padding: 0px 30px;
+    border-radius: 5px;
+    width: 280px;
+    
+}
+.login-btn{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border:none;
+    background-color: #FEFEFE;
+    color: #E2112E;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    color: #FEFEFE;
+}
+.signup-link{
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+    color: white;
+}
+
+.signup-link-container{
+    text-align: center;
+}
+
