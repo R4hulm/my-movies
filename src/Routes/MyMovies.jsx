@@ -6,12 +6,14 @@ import './MyMovies.styles.css';
 const MyMovies = () => {
     return (
         <>
-            <h1 className="heading">MY MOVIES</h1>
+        <h1 className="heading">MY MOVIES</h1>
+        <div className="movies-list-container">
             <div className="movies-container">
-            {movieList.map((movie) => (
-        <Movie key={movie.id} movie={movie} />
-      ))}
+                {movieList.map((movie) => (
+                    <Movie key={movie.id} movie={movie} />
+                 ))}
             </div>
+        </div>
         </>
     )
 }

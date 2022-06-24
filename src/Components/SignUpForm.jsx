@@ -93,10 +93,12 @@ const SignUpForm = () => {
            onChange={handleChange}
            errorMessage = {formErrors.password} 
            />
+           
            <button className='signup-btn'>Register</button>
-           <span>Already Registered?</span>
-           <span className="login-link" onClick={()=>navigate('/')}>Login now</span>
-        
+           <div className="login-link-container">
+            <span>Already Registered?</span>
+            <span className="login-link" onClick={()=>navigate('/')}>Login now</span>
+           </div>
         </form>
     )
 }

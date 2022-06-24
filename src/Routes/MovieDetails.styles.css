@@ -1,4 +1,67 @@
+.movie-det-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.heading{
+    text-align: center;
+    color:#FEFEFE ;
+}
 
+.slider{
+    position: relative;
+    overflow: hidden;
+    border: none;
+    margin-bottom: 0px;
+}
+.images{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.images img {
+    width: 100%;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.dots label {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover {
+    background: #FEFEFE;
+}
+
+#img1:checked ~ .backdrop1 {
+    margin-left: 0;
+}
+#img2:checked ~ .backdrop2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .backdrop3 {
+    margin-left: -200%;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    background-color: #4B4B4D;
+    margin-top: 3%;
+}
 .book-btn {
     width: 180px;
     height: 40px;
@@ -15,47 +78,28 @@
 }
 .movie-desc{
     text-align: left;
+    color: #FEFEFE;
     background-color:#4B4B4D ;
-    padding-right: 15%;
+    padding: 0% 5%;
+    margin: 5px 0 5px 0;
 
 }
+.title {
+    color: #FEFEFE;
+    background-color: #4B4B4D;
+    text-align: left;
+    padding: 0% 5%;
+    margin: 40px 0 15px 0;
+}
+
 .details-container {
-    padding: 0 10% 0 10%;
+
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color:#4B4B4D ;
-    align-items: center;
+    justify-content: left;
+    margin-top: 0px;
 }
 
-.title {
-    align-items: left;
-}
 
-/* .slider{
-    position: relative;
-    width: 100%;
-    height: 360px;
-}
-.images{
-    display: flex;
-    width: 100%;
-}
-.image input{
-    display: none;
-}
-.dots {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-.dots label {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: solid #fff 3px;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    margin: 5px;
-} */

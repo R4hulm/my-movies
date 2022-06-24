@@ -18,7 +18,7 @@
     margin-top: 15px;
     margin-bottom: 10px;
 }
-h1{
+.form h1{
     text-align: center;
     color: #FEFEFE;
 }
@@ -27,7 +27,7 @@ h1{
     font-weight: bold;
     cursor: pointer;
 }
-p{
+.form p{
     text-align: center;
     font-size: 12px;
     padding: 3px;
@@ -36,5 +36,12 @@ p{
 
 .signup-link-container{
     text-align: center;
+}
+
+.form span{
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+    color: white;
 }
 

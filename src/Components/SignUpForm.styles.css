@@ -17,11 +17,19 @@
     margin-top: 15px;
     margin-bottom: 30px;
 }
-h1{
+.form h1{
     text-align: center;
     color: #FEFEFE;
 }
 .login-link{
     font-weight: bold;
     cursor: pointer;
+    text-align: center;
+}
+
+.login-link-container{
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+    color: white;
 }
