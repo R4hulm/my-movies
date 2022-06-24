@@ -1,0 +1,1 @@
+This App lets user to signup and sign in. Once signed in, the user will be redirected to my movies page. when a movie is clicked, the user will be redirected to a page which contains the details of the movie.
